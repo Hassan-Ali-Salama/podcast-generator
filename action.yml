@@ -1,19 +1,12 @@
-# Action metadata
 name: "Podcast Generator"
 author: "Hassan Ali"
 description: "Generate a feed for a podcast from a YAML file"
-
-# Specify that the Action runs using Docker
 runs:
   using: "docker"
   image: "Dockerfile"
-
-# Branding for GitHub Marketplace
 branding:
   icon: "git-branch"
   color: "red"
-
-# Inputs for the Action
 inputs:
   email:
     description: "The committer's email address"
